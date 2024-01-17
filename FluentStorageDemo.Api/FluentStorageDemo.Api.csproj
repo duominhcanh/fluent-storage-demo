@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>ca792575-2bbd-4de4-be3c-e830eb18399b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentStorage" Version="5.4.1" />
+    <PackageReference Include="FluentStorage.AWS" Version="5.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FluentStorageDemo.BlobStorage\FluentStorageDemo.BlobStorage.csproj" />
+  </ItemGroup>
+
+</Project>
